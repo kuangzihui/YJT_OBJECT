@@ -15,6 +15,7 @@
 		3CDDBB711D5C26D000D55CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDBB701D5C26D000D55CBC /* Assets.xcassets */; };
 		3CDDBB741D5C26D000D55CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDBB721D5C26D000D55CBC /* LaunchScreen.storyboard */; };
 		3CDDBB7D1D5C275A00D55CBC /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDBB7C1D5C275A00D55CBC /* CustomTextField.m */; };
+		FEA2867B1E791DEE003EBF8A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA2867A1E791DEE003EBF8A /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		3CDDBB751D5C26D000D55CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CDDBB7B1D5C275A00D55CBC /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		3CDDBB7C1D5C275A00D55CBC /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		FEA286791E791DEE003EBF8A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FEA2867A1E791DEE003EBF8A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		3CDDBB631D5C26D000D55CBC /* TextField自动换行 */ = {
 			isa = PBXGroup;
 			children = (
+				FEA286781E791DE5003EBF8A /* PersonXML */,
 				3CD0967C1D5C55E100D3D482 /* image@2x.jpg */,
 				3CDDBB671D5C26D000D55CBC /* AppDelegate.h */,
 				3CDDBB681D5C26D000D55CBC /* AppDelegate.m */,
@@ -85,6 +89,15 @@
 				3CDDBB651D5C26D000D55CBC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA286781E791DE5003EBF8A /* PersonXML */ = {
+			isa = PBXGroup;
+			children = (
+				FEA286791E791DEE003EBF8A /* TableViewController.h */,
+				FEA2867A1E791DEE003EBF8A /* TableViewController.m */,
+			);
+			path = PersonXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 				TargetAttributes = {
 					3CDDBB601D5C26D000D55CBC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 75X3SAH33K;
 					};
 				};
 			};
@@ -161,6 +175,7 @@
 				3CDDBB7D1D5C275A00D55CBC /* CustomTextField.m in Sources */,
 				3CDDBB6C1D5C26D000D55CBC /* ViewController.m in Sources */,
 				3CDDBB691D5C26D000D55CBC /* AppDelegate.m in Sources */,
+				FEA2867B1E791DEE003EBF8A /* TableViewController.m in Sources */,
 				3CDDBB661D5C26D000D55CBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75X3SAH33K;
 				INFOPLIST_FILE = "TextField自动换行/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -285,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75X3SAH33K;
 				INFOPLIST_FILE = "TextField自动换行/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
